@@ -102,11 +102,13 @@ gsap.to("#page4 h1", {
     transform:"translateX(-100%)",
     duration:3,
     scrollTrigger: {
-        trigger:"#page4 h1",
+        trigger:"#page4",
         scroller:"body",
         markers:true,
-        start:"top 50%",
-        // scrub:1
+        start:"top 0%",
+        // end:"top -150%",
+        scrub:1,
+        pin:true,
     }
 })
 // gsap.to("#page4 h1", {
