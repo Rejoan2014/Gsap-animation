@@ -15,10 +15,10 @@ tl.from("#item", {
     stagger:0.3,
 })
 
-tl.from("#title", {
+tl.from("#page #title", {
     y:20,
     opacity:0,
-    duration:0.5,
+    duration:1,
     scale:0.2,
 })
 
@@ -102,6 +102,28 @@ gsap.from("#page3 h2", {
         scroller:"body",
     }
 })
+
+gsap.to("#page3 h3", {
+    x:-700,
+    duration:3,
+    delay:1,
+    repeat:2,
+    scrollTrigger: {
+        trigger:"#page3 h3",
+        scroller:"body",
+    }
+})
+
+gsap.to("#page3 h4", {
+    x:700,
+    duration:3,
+    delay:1,
+    repeat:2,
+    scrollTrigger: {
+        trigger:"#page3 h4",
+        scroller:"body",
+    }
+})
 gsap.to("#page4 h1", {
     transform:"translateX(-100%)",
     duration:3,
@@ -126,3 +148,27 @@ gsap.to("#page4 h1", {
 //         // scrub: 1 
 //     }
 // });
+
+gsap.to("#page5 h1", {
+    transform:"translateX(-100%)",
+    duration:3,
+    scrollTrigger: {
+        trigger:"#page5",
+        scroller:"body",
+        markers:true,
+        start:"top 0%",
+        // end:"top -150%",
+        scrub:1,
+    }
+})
+
+gsap.from("#page6 h1", {
+    y:20,
+    opacity:0,
+    scale:0.2,
+    duration:3,
+    scrollTrigger: {
+        trigger:"#page6",
+        scroller:"body",
+    }
+})
