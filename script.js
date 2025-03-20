@@ -66,14 +66,14 @@ gsap.from("#page1 #box", {
     }
 })
 
-gsap.from("#page2 #box", {
+gsap.from("#page2 #boxTwo", {
     scale:0,
     rotate:720,
     duration:1,
     // delay:1,
     // scrollTrigger:"#page2 #box",
     scrollTrigger: {
-        trigger:"#page2 #box",
+        trigger:"#page2 #boxTwo",
         scroller:"body",
         markers:true,
         start:"top 80%",
