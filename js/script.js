@@ -11,7 +11,7 @@ tl.from("#logo", {
 tl.from("#item", {
     y:-30,
     opacity:0,
-    duration:1,
+    duration:.5,
     stagger:0.3,
 })
 
