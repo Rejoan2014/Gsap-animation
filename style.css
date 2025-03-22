@@ -211,3 +211,33 @@
         border-radius: 50%;
         position: fixed;
     }
+
+    /* Home4 */
+    .stunnText {
+        width: 100%;
+        height: 100%;
+        background: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .stunnText h1 {
+        color: #FFF;
+        font-size: 100px;
+        font-weight: 700;
+        overflow: hidden;
+    }
+    .stunnText h1 span {
+        display: inline-block;
+    }
+    .stunnText h2 {
+        color: #FFF;
+        font-size: 100px;
+        font-weight: 700;
+        overflow: hidden;
+    }
+    .stunnText h2 span {
+        display: inline-block;
+    }
