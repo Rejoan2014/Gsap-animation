@@ -49,11 +49,11 @@ gsap.from("#page h1",{
     color:"red",
     stagger:0.5,
     duration:1,
-    delay:1,
+    delay:1,  // Hello ,How are You
 });
 
 
-///////////////////////// Home two ///////////////////////
+///////////////////////// Next Section ///////////////////////
 
 gsap.from("#page1 #box1", {
     scale:0,
@@ -82,6 +82,7 @@ gsap.from("#page2 #box2", {
     }
 })
 
+///////////////////////// Next Section ///////////////////////
 gsap.from("#page3 h1", {
     opacity:0,
     x:600,
@@ -124,6 +125,8 @@ gsap.to("#page3 h4", {
         scroller:"body",
     }
 })
+
+///////////////////////// Next Section ///////////////////////
 gsap.to("#page4 h1", {
     transform:"translateX(-100%)",
     duration:3,
