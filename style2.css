@@ -38,6 +38,7 @@ body {
     display: flex;
     align-items: center;
     gap: 3vw;
+    padding: 0 1.5vw;
     /* background-color: red; */
     transform: translateX(-100%);
 }
