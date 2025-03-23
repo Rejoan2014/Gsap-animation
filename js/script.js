@@ -22,7 +22,7 @@ tl.from("#page #title", {
     scale:0.2,
 })
 
-gsap.to("#box1",{
+gsap.to("#boxFirst",{
     x:1500,
     duration:2,
     delay:1,
@@ -30,11 +30,11 @@ gsap.to("#box1",{
     backgroundColor: "green",
     borderRadius:"50%",
     scale:0.5,
-    // repeat:-1,
-    yoyo:true,
+    repeat:-1,
+    yoyo:true, // start-end, end-start, start-end, end-start like this system without this [start-end, start-end like this But repeat option -1 or 1 must written]
 });
 
-gsap.from("#box2",{
+gsap.from("#boxSecond",{
     x:1500,
     y:500,
     duration:2,
@@ -55,25 +55,25 @@ gsap.from("#page h1",{
 
 ///////////////////////// Home two ///////////////////////
 
-gsap.from("#page1 #box", {
+gsap.from("#page1 #box1", {
     scale:0,
     rotate:360,
     duration:3,
     delay:1,
     scrollTrigger: {
-        trigger:"#page1 #box",
+        trigger:"#page1 #box1",
         scroller:"body",
     }
 })
 
-gsap.from("#page2 #boxTwo", {
+gsap.from("#page2 #box2", {
     scale:0,
     rotate:720,
     duration:1,
     // delay:1,
     // scrollTrigger:"#page2 #box",
     scrollTrigger: {
-        trigger:"#page2 #boxTwo",
+        trigger:"#page2 #box2",
         scroller:"body",
         markers:true,
         start:"top 80%",

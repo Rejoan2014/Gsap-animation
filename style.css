@@ -51,14 +51,14 @@
     }
 
 
-    #page #box1 {
+    #page #boxFirst {
         margin-left: 50px;
         margin-top: 30px;
         height: 200px;
         width: 200px;
         background-color: rgb(238, 30, 179);
     }
-    #page #box2 {
+    #page #boxSecond {
         margin-left: 50px;
         margin-top: 50px;
         height: 200px;
@@ -82,12 +82,12 @@
 
    /* Home Two */
    
-   #box {
+   #box1 {
         width: 300px;
         height: 300px;
         background-color: crimson;
     }
-   #boxTwo {
+   #box2 {
         width: 300px;
         height: 300px;
         background-color: rgb(220, 203, 20);
